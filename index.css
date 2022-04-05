@@ -1,0 +1,26 @@
+#span1{
+    font-size: 40px;
+    color: rgb(59, 191, 201);
+    position: relative;
+}
+#judul{
+    color: hotpink;
+}
+#tombol{
+    color: rgb(248, 4, 4);
+    font-style: normal;
+}
+
+#wrapper {
+
+}
+
+#div1 {
+    display: flex;
+    justify-content: center;
+    
+}
+
+body {
+    background-image: url("jokowi.jpeg");
+}
