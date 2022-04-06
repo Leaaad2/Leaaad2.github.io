@@ -28,3 +28,8 @@
 body {
     background-image: url("jokowi.jpeg");
 }
+
+#link1{
+    font-size: x-large;
+    color: chartreuse;
+}
