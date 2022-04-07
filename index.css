@@ -1,35 +1,64 @@
+*{top: 0;    }
+
 #span1{
-    font-size: 20px;
-    color: rgb(59, 191, 201);
-    position: relative;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    
 }
 #judul{
     color: hotpink;
 }
 #tombol{
-    color: rgb(248, 4, 4);
+    color: rgb(255, 255, 255);
     font-style: normal;
+    background-color: rgb(71, 168, 115);;
+    border: none;
+    size: 40px;
+}
+
+#tombol:hover{
+    background-color: rgb(6, 83, 35);
 }
 
 #wrapper {
-
+    background-color: brown;
+    width: 100%;
 }
 
 #div1 {
     display: flex;
-    justify-content: center;
+    justify-content: left;
+    background-color: rgb(71, 168, 115);
     
+    margin-top: 0px;
 }
 
 #div2 {
     display: flex;
-    justify-content: center;
+    justify-content: left;
 }
 body {
-    background-image: url("jokowi.jpeg");
+    background-color: rgb(7, 102, 89);
 }
 
+
+
 #link1{
+    display: flex;
     font-size: x-large;
-    color: chartreuse;
+    color: rgb(0, 0, 0);  
+    background-color: antiquewhite;
+    justify-content: center; 
+}
+
+#dropdown1{
+    color: white;
+    border: none;
+    background-color: rgb(71, 168, 115);;
+}
+
+#dropdown2{
+    color: white;
+    border: none;
+    background-color: rgb(71, 168, 115);;
 }
