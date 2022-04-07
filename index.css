@@ -9,15 +9,15 @@
     color: hotpink;
 }
 #tombol{
-    color: rgb(255, 255, 255);
-    font-style: normal;
+    color: rgb(85, 79, 79);
+    font-size: 13px;
     background-color: rgb(71, 168, 115);;
     border: none;
     size: 40px;
 }
 
 #tombol:hover{
-    background-color: rgb(6, 83, 35);
+    background-color: antiquewhite;
 }
 
 #wrapper {
@@ -36,6 +36,8 @@
 #div2 {
     display: flex;
     justify-content: left;
+    background-color: rgb(71, 168, 115);
+
 }
 body {
     background-color: rgb(7, 102, 89);
@@ -52,13 +54,18 @@ body {
 }
 
 #dropdown1{
-    color: white;
+    color: rgb(85, 79, 79);
     border: none;
-    background-color: rgb(71, 168, 115);;
+    background-color: antiquewhite;
 }
-
+#dropdown1:hover{
+    background-color: rgb(71, 168, 115);
+}
 #dropdown2{
-    color: white;
+    color: rgb(85, 79, 79);
     border: none;
-    background-color: rgb(71, 168, 115);;
+    background-color: antiquewhite;
+}
+#dropdown2:hover{
+    background-color: rgb(71, 168, 115);
 }
